@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lexy Feldmann | Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-image: url('https://www.transparenttextures.com/patterns/flowers.png');
+      background-color: #fff0f5;
+      color: #4b2c4e;
+      margin: 0;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background-color: #ffc0cb;
+      padding: 2rem;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      position: relative;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.7rem;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+
+    nav {
+      margin-top: 1rem;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #4b2c4e;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 3rem auto;
+      padding: 0 1rem;
+      background-color: rgba(255, 240, 245, 0.95);
+      border-radius: 15px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #d63384;
+      position: relative;
+    }
+
+    .divider {
+      text-align: center;
+      margin: 2rem 0;
+    }
+
+    .divider img {
+      width: 40px;
+      height: 40px;
+      opacity: 0.7;
+    }
+
+    .project {
+      background-color: #ffe6f0;
+      padding: 1.5rem;
+      border-radius: 12px;
+      margin-bottom: 2rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .project h3 {
+      margin-top: 0;
+      color: #c2185b;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #ffc0cb;
+      font-weight: 500;
+    }
+
+    a.button {
+      background-color: #f48fb1;
+      color: white;
+      padding: 0.6rem 1.4rem;
+      border-radius: 6px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 1rem;
+      font-size: 1rem;
+      transition: background-color 0.3s ease;
+    }
+
+    a.button:hover {
+      background-color: #ec407a;
+    }
+
+    img.profile {
+      width: 330px;
+      border-radius: 220px;
+      display: block;
+      margin: 30px auto;
+      border: 5px solid #ffc0cb;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    section p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Lexy Feldmann</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Work/Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="profile-pic.png" alt="Lexy Feldmann" class="profile" />
+    <p>Hi, I’m Lexy!<br><br>I have a Master’s degree in Data Science and a passion for using data to make life better! I’ve worked with tools like <strong>Power BI, Power Automate, Power Apps, Alteryx, and Jupyter Notebook (with Python) </strong>to build everything from automated workflows to predictive models and interactive dashboards. Whether I’m uncovering insights, streamlining a process, or helping others make data-informed decisions, I love finding practical, creative ways to turn data into impact.</p>
+  </section>
+
+  <div class="divider">
+    <img src="https://cdn-icons-png.flaticon.com/512/8013/8013772.png" alt="flower divider" />
+  </div>
+
+  <section id="projects">
+    <h2>Work / Projects</h2>
+
+    <div class="project">
+      <h3>Predicting Student Depression</h3>
+      <p>Used student survey data to explore factors like sleep, academic pressure, and financial stress, building predictive models with logistic regression and gradient boosting to identify key depression risk indicators.</p>
+      <a href="https://github.com/lexyfeldmann/predicting-student-depression" class="button" target="_blank">View Project</a>
+    </div>
+
+    <div class="project">
+        <h3>Predicting Employee Churn</h3>
+        <p>Built a predictive model to identify employees at risk of leaving by analyzing engagement survey data, role tenure, and other workplace factors to support proactive retention efforts.</p>
+        <a href="https://github.com/lexyfeldmann/predicting-employee-churn" class="button" target="_blank">View Project</a>
+      </div>
+
+    <div class="project">
+        <h3>Marketing & Retail Performance</h3>
+        <p>This project analyzes retail customer behavior through exploratory data analysis, classification, and clustering to uncover spending patterns and identify high-value segments for targeted marketing strategies.</p>
+        <a href="https://github.com/lexyfeldmann/marketing-and-retail-sales" class="button" target="_blank">View Project</a>
+      </div>
+
+    <div class="project">
+        <h3>Book Ratings Analysis</h3>
+        <p>This project analyzes a book ratings dataset to uncover trends in reader preferences, popular titles and authors, and user engagement patterns, providing insights to support personalized recommendation systems and audience-focused strategies.</p>
+        <a href="https://github.com/lexyfeldmann/book-ratings-analysis" class="button" target="_blank">View Project</a>
+      </div>
+
+    <div class="project">
+        <h3>Adult Income Exploratory Analysis</h3>
+        <p>This project explores the Adult Income dataset to identify demographic and work-related factors most associated with earning above or below $50K annually, providing insights to inform predictive modeling and policy or career guidance strategies.</p>
+        <a href="https://github.com/lexyfeldmann/adult-income-eda" class="button" target="_blank">View Project</a>
+      </div>
+
+    <div class="project">
+        <h3>Bosting Housing Exploratory Analysis</h3>
+        <p>This project explores a housing dataset from the city of Boston to identify key neighborhood and property factors influencing home prices, providing insights for predictive modeling and housing market decision-making.</p>
+        <a href="https://github.com/lexyfeldmann/boston-housing-eda" class="button" target="_blank">View Project</a>
+      </div>
+
+    <div class="project">
+        <h3>Restaurant Satisfaction</h3>
+        <p>This project examines a restaurant satisfaction dataset to identify factors influencing customer happiness and uses logistic regression to predict high satisfaction, offering insights for targeted service improvements.</p>
+        <a href="https://github.com/lexyfeldmann/restaurant-satisfaction" class="button" target="_blank">View Project</a>
+      </div>
+
+    <div class="project">
+        <h3>White House Logs Exploratory Analysis</h3>
+        <p>This project analyzes White House visitor logs to uncover trends in visit frequency, peak appointment times, and the most frequent individuals and organizations, offering insights into engagement patterns over time.</p>
+        <a href="https://github.com/lexyfeldmann/white-house-logs-eda" class="button" target="_blank">View Project</a>
+      </div>
+
+      <div class="project">
+        <h3>Clustering ALS Data</h3>
+        <p>This project uses K-means clustering and PCA to identify two distinct patient groups in ALS data, revealing meaningful differences that could inform further research and treatment strategies.</p>
+        <a href="https://github.com/lexyfeldmann/clustering-als-data" class="button" target="_blank">View Project</a>
+      </div>
+    
+    <div class="project">
+        <h3>SQLite3 Database Exploration</h3>
+        <p>This project demonstrates creating, managing, and querying an SQLite3 database in Python, showcasing how to integrate lightweight SQL operations into data analysis workflows.</p>
+        <a href="https://github.com/lexyfeldmann/sqlite3-database-exploration" class="button" target="_blank">View Project</a>
+      </div>
+
+  </section>
+
+  <div class="divider">
+    <img src="https://cdn-icons-png.flaticon.com/512/10172/10172844.png" alt="flower divider" />
+  </div>
+
+  <section id="contact" style="text-align: center;">
+    <h2>Contact</h2>
+    <p>Have a question or opportunity? Let’s connect!</p>
+    <p>Email: <a href="mailto:lexyfeldmann@gmail.com">lexyfeldmann@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/lexyfeldmann" target="_blank">github.com/lexyfeldmann</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/lexy-feldmann-555ba91b7/" target="_blank">https://www.linkedin.com/in/lexyfeldmann</a></p>
+  </section>  
+
+  <footer>
+    <p>2025 Lexy Feldmann</p>
+  </footer>
+
+</body>
+</html>
